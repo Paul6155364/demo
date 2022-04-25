@@ -28,9 +28,9 @@ public class TestThread02 extends Thread{
         TestThread02 t2 = new TestThread02("2.jpg","https://img-blog.csdnimg.cn/img_convert/859d3ec7d8a2e69f7fc9a6856169cce9.png");
         TestThread02 t3 = new TestThread02("3.jpg","https://img-blog.csdnimg.cn/img_convert/859d3ec7d8a2e69f7fc9a6856169cce9.png");
 
-        t1.run();
-        t2.run();
-        t3.run();
+        t1.start();
+        t2.start();
+        t3.start();
     }
 }
 

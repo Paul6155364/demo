@@ -2,6 +2,7 @@ package com.example.demo.thread;
 
 public class StacticProxy {
     public static void main(String[] args) {
+        new Thread(()-> System.out.println("hhh")).start();
         WeddingCompany weddingCompany = new WeddingCompany(new You());
         weddingCompany.HappyMarry();
     }

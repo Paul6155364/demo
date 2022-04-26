@@ -1,5 +1,11 @@
 package com.example.demo.thread.dead;
 
+/**
+ * 互斥条件
+ * 请求与保持条件
+ * 不剥夺条件
+ * 循环等待条件
+ */
 public class DeadLock {
     public static void main(String[] args) {
         Makeup g1 = new Makeup(0,"qwe");
